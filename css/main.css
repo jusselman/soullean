@@ -1,0 +1,1153 @@
+/* NewApp Bootstrap
+  Author: Josue Miguel
+  Version 1.0
+  */
+/* BASE - Base styles, variable, mixins, etc */
+/* Font Colors */
+/* Background Colors */
+/* Showcase Area */
+/* Mixins */
+/* line 1, C:/Users/Josue/Desktop/SouLean/scss/base/_normalize.scss */
+h1, h2, h3, h4, h5 {
+  margin-top: 0;
+}
+
+/* line 5, C:/Users/Josue/Desktop/SouLean/scss/base/_normalize.scss */
+h1 {
+  font-size: 6.5rem !important;
+  z-index: 99;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* line 12, C:/Users/Josue/Desktop/SouLean/scss/base/_normalize.scss */
+p {
+  z-index: 99;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* line 18, C:/Users/Josue/Desktop/SouLean/scss/base/_normalize.scss */
+button {
+  z-index: 99;
+}
+
+/* line 1, C:/Users/Josue/Desktop/SouLean/scss/base/_base.scss */
+body {
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+  line-height: 1.7em;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+/* line 9, C:/Users/Josue/Desktop/SouLean/scss/base/_base.scss */
+a {
+  color: #ff794d;
+}
+
+/* line 13, C:/Users/Josue/Desktop/SouLean/scss/base/_base.scss */
+ul, li {
+  list-style: none;
+}
+
+/* line 17, C:/Users/Josue/Desktop/SouLean/scss/base/_base.scss */
+input, textarea, button {
+  -moz-border-radius: 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+}
+
+/* line 21, C:/Users/Josue/Desktop/SouLean/scss/base/_base.scss */
+img.device {
+  width: 100%;
+}
+
+/* line 25, C:/Users/Josue/Desktop/SouLean/scss/base/_base.scss */
+img.device-small {
+  width: 70%;
+  margin-bottom: -40px;
+}
+
+/* Video Business */
+/* line 31, C:/Users/Josue/Desktop/SouLean/scss/base/_base.scss */
+.responsive video {
+  width: 100% !important;
+  height: auto !important;
+}
+
+/*MODULES - Individual  site components */
+/* Blocks */
+/* line 3, C:/Users/Josue/Desktop/SouLean/scss/modules/_blocks.scss */
+.block, .block-primary, .block-secondary, .block-light, .block-dark, .block-transparent {
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+/* line 7, C:/Users/Josue/Desktop/SouLean/scss/modules/_blocks.scss */
+.block h3, .block-primary h3, .block-secondary h3, .block-light h3, .block-dark h3, .block-transparent h3 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* TAKES ALL THE QUALITIES OF BLOCK AND PLUGS THEM INTO .BLOCK-PRIMARY */
+/* line 15, C:/Users/Josue/Desktop/SouLean/scss/modules/_blocks.scss */
+.block-primary {
+  background: #ff794d;
+  color: #ffffff;
+}
+
+/* line 20, C:/Users/Josue/Desktop/SouLean/scss/modules/_blocks.scss */
+.block-secondary {
+  background: #7fba00;
+  color: #ffffff;
+}
+
+/* line 25, C:/Users/Josue/Desktop/SouLean/scss/modules/_blocks.scss */
+.block-light {
+  background: #fff89a;
+  color: #666666;
+}
+
+/* line 31, C:/Users/Josue/Desktop/SouLean/scss/modules/_blocks.scss */
+.block-dark {
+  background: #4b1b0d;
+  color: #ffffff;
+}
+
+/* line 36, C:/Users/Josue/Desktop/SouLean/scss/modules/_blocks.scss */
+.block-transparent {
+  background: rgba(96, 51, 82, 0.55);
+  color: #ffffff;
+  z-index: 1000;
+}
+
+/* line 42, C:/Users/Josue/Desktop/SouLean/scss/modules/_blocks.scss */
+.block-center {
+  text-align: center !important;
+}
+
+/* line 46, C:/Users/Josue/Desktop/SouLean/scss/modules/_blocks.scss */
+.block-image img {
+  width: 100%;
+}
+
+/* line 50, C:/Users/Josue/Desktop/SouLean/scss/modules/_blocks.scss */
+.block-border {
+  border: 1px solid #cccccc;
+}
+
+/* line 56, C:/Users/Josue/Desktop/SouLean/scss/modules/_blocks.scss */
+.block-primary-head h3 {
+  padding: 15px 5px 15px 10px;
+  background: #ff794d;
+  color: #ffffff;
+  border-bottom: 1px solid #fff89a;
+  margin: -2px;
+  font-size: 18px;
+}
+
+/* line 63, C:/Users/Josue/Desktop/SouLean/scss/modules/_blocks.scss */
+.block-primary-head .block-content {
+  border: 1px solid #ff794d;
+  padding: 10px;
+}
+
+/* line 68, C:/Users/Josue/Desktop/SouLean/scss/modules/_blocks.scss */
+.block-primary-head .block-content {
+  border: 1px solid #ff794d;
+  padding: 10px;
+}
+
+/* line 75, C:/Users/Josue/Desktop/SouLean/scss/modules/_blocks.scss */
+.block-icon h3 {
+  padding: 0 0 0 100px;
+  margin: 0;
+}
+
+/* line 79, C:/Users/Josue/Desktop/SouLean/scss/modules/_blocks.scss */
+.block-icon .icon {
+  float: left;
+  width: 20%;
+  margin-top: 10px;
+}
+
+/* line 84, C:/Users/Josue/Desktop/SouLean/scss/modules/_blocks.scss */
+.block-icon .icon-content {
+  float: left;
+  width: 60%;
+}
+
+/* line 88, C:/Users/Josue/Desktop/SouLean/scss/modules/_blocks.scss */
+.block-icon p {
+  padding-left: 100px;
+}
+
+/* BUTTONS */
+/* line 3, C:/Users/Josue/Desktop/SouLean/scss/modules/_buttons.scss */
+.btn-primary {
+  background: #ff794d;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+/* line 8, C:/Users/Josue/Desktop/SouLean/scss/modules/_buttons.scss */
+.btn-primary:hover {
+  background: #ffc6b3;
+  border: 2px solid #ff794d;
+}
+
+/* line 13, C:/Users/Josue/Desktop/SouLean/scss/modules/_buttons.scss */
+.btn-link {
+  font-size: 20px;
+}
+
+/* Carousel */
+/* line 5, C:/Users/Josue/Desktop/SouLean/scss/modules/_components.scss */
+.carousel-fade .carousel-item {
+  display: block;
+  position: absolute;
+  opacity: 0;
+  transition: opacity .5s ease-in-out;
+}
+
+/* line 11, C:/Users/Josue/Desktop/SouLean/scss/modules/_components.scss */
+.carousel-fade .carousel-item.active {
+  opacity: 1;
+}
+
+/* line 19, C:/Users/Josue/Desktop/SouLean/scss/modules/_components.scss */
+html,
+body,
+.carousel,
+.carousel-inner,
+.carousel-item {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 28, C:/Users/Josue/Desktop/SouLean/scss/modules/_components.scss */
+.carousel {
+  top: 0;
+  left: 0;
+}
+
+/* line 35, C:/Users/Josue/Desktop/SouLean/scss/modules/_components.scss */
+.carousel-item:nth-child(1) {
+  background: url("../img/showcase.jpg;");
+}
+
+/* line 38, C:/Users/Josue/Desktop/SouLean/scss/modules/_components.scss */
+.carousel-item:nth-child(2) {
+  background: url("../img/showcase2.jpg;");
+}
+
+/* line 41, C:/Users/Josue/Desktop/SouLean/scss/modules/_components.scss */
+.carousel-item:nth-child(3) {
+  background: url("../img/showcase3.jpg;");
+}
+
+/* line 48, C:/Users/Josue/Desktop/SouLean/scss/modules/_components.scss */
+.mapWrapper {
+  overflow: hidden;
+  padding-bottom: 15%;
+  padding-top: 0;
+  position: relative;
+  height: 450px;
+}
+
+/* line 55, C:/Users/Josue/Desktop/SouLean/scss/modules/_components.scss */
+.mapWrapper iframe {
+  left: 0;
+  top: 0;
+  height: 450px;
+  width: 100%;
+  position: absolute;
+}
+
+/* line 63, C:/Users/Josue/Desktop/SouLean/scss/modules/_components.scss */
+section.section-map {
+  padding-top: 0 !important;
+  padding-bottom: -50px !important;
+}
+
+/* Sections */
+/* line 2, C:/Users/Josue/Desktop/SouLean/scss/modules/_sections.scss */
+.section-showcase {
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-attachment: fixed;
+  top: 0;
+  left: 0;
+}
+
+/* line 10, C:/Users/Josue/Desktop/SouLean/scss/modules/_sections.scss */
+.section-showcase h1 {
+  color: #fff;
+  border-bottom: 1px solid #ff794d;
+  text-shadow: -1px 1px #ff794d;
+}
+
+/* line 15, C:/Users/Josue/Desktop/SouLean/scss/modules/_sections.scss */
+.section-showcase p {
+  font-size: 2.5rem;
+  color: #fff;
+  margin-top: 10px;
+}
+
+/* line 20, C:/Users/Josue/Desktop/SouLean/scss/modules/_sections.scss */
+.section-showcase button {
+  background: #ff794d;
+  color: #fff;
+  border: none;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 100%;
+  margin-top: 50px;
+  font-size: 25px;
+}
+
+/* line 31, C:/Users/Josue/Desktop/SouLean/scss/modules/_sections.scss */
+.section-showcase .carousel {
+  position: absolute;
+  padding-bottom: 0;
+}
+
+/* line 39, C:/Users/Josue/Desktop/SouLean/scss/modules/_sections.scss */
+.showcase-content {
+  padding-top: 300px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+/* line 51, C:/Users/Josue/Desktop/SouLean/scss/modules/_sections.scss */
+.section-about {
+  background: #fff;
+  color: #000;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+/* line 65, C:/Users/Josue/Desktop/SouLean/scss/modules/_sections.scss */
+.section-menu {
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-attachment: fixed;
+  top: 0;
+  left: 0;
+}
+
+/* line 76, C:/Users/Josue/Desktop/SouLean/scss/modules/_sections.scss */
+.section-events {
+  background: #fff;
+  color: #585858;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  top: 0;
+}
+
+/* line 86, C:/Users/Josue/Desktop/SouLean/scss/modules/_sections.scss */
+.section-events .fa-calendar-alt {
+  margin: 0 auto;
+  width: 100%;
+}
+
+/* line 91, C:/Users/Josue/Desktop/SouLean/scss/modules/_sections.scss */
+.section-events h2, .section-events h3 {
+  text-align: center;
+  color: #ff794d;
+}
+
+/* line 95, C:/Users/Josue/Desktop/SouLean/scss/modules/_sections.scss */
+.section-events .reserve {
+  margin: 40px auto 30px auto;
+}
+
+/* line 99, C:/Users/Josue/Desktop/SouLean/scss/modules/_sections.scss */
+.section-events img {
+  height: 300px;
+  width: 350px;
+  border-radius: 15%;
+  position: relative;
+  opacity: 1.0;
+}
+
+/* line 107, C:/Users/Josue/Desktop/SouLean/scss/modules/_sections.scss */
+.section-events img:hover {
+  opacity: .65;
+}
+
+/* line 111, C:/Users/Josue/Desktop/SouLean/scss/modules/_sections.scss */
+.section-events .item {
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  border-radius: 15%;
+  background: #ff794d;
+}
+
+/* line 123, C:/Users/Josue/Desktop/SouLean/scss/modules/_sections.scss */
+.section-events .item img {
+  max-width: 100%;
+  -moz-transition: all 1.5s;
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+}
+
+/* line 129, C:/Users/Josue/Desktop/SouLean/scss/modules/_sections.scss */
+.section-events .item:hover img {
+  -moz-transform: scale(1.25);
+  -webkit-transform: scale(1.25);
+  transform: scale(1.25);
+}
+
+/* line 136, C:/Users/Josue/Desktop/SouLean/scss/modules/_sections.scss */
+.section-events button {
+  background: #ff794d;
+  color: #fff;
+  border: none;
+  margin: 0 auto;
+  display: block;
+  padding: 20px;
+  border-radius: 100%;
+  -moz-transition: all 1.5s;
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
+}
+
+/* line 153, C:/Users/Josue/Desktop/SouLean/scss/modules/_sections.scss */
+.section-contact {
+  background-image: url("../img/sushi1.jpg");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* line 160, C:/Users/Josue/Desktop/SouLean/scss/modules/_sections.scss */
+.section-contact ::placeholder {
+  color: #ff794d;
+  opacity: 1;
+  /* Firefox */
+}
+
+/* line 165, C:/Users/Josue/Desktop/SouLean/scss/modules/_sections.scss */
+.section-contact .container {
+  margin-top: 7%;
+  background-color: rgba(255, 121, 77, 0.5);
+  padding: 20px 30px 10px 30px;
+  border-radius: 20px;
+}
+
+/* line 173, C:/Users/Josue/Desktop/SouLean/scss/modules/_sections.scss */
+.section-contact iframe {
+  border-radius: 15px;
+}
+
+/* line 177, C:/Users/Josue/Desktop/SouLean/scss/modules/_sections.scss */
+.section-contact h1 {
+  color: #fff;
+}
+
+/* line 182, C:/Users/Josue/Desktop/SouLean/scss/modules/_sections.scss */
+.section-contact button {
+  color: #fff;
+  background-color: #ff794d;
+}
+
+/* line 186, C:/Users/Josue/Desktop/SouLean/scss/modules/_sections.scss */
+.section-contact button:hover {
+  background-color: #ffebe0;
+  color: #ff794d;
+  border: 1px solid #fff;
+}
+
+/* line 195, C:/Users/Josue/Desktop/SouLean/scss/modules/_sections.scss */
+.section-primary, .section-primary-a, .section-primary-b, .section-primary-c, .section-primary-d {
+  background: #ff794d;
+  color: #ffffff;
+}
+
+/* line 199, C:/Users/Josue/Desktop/SouLean/scss/modules/_sections.scss */
+.section-secondary {
+  background: #7fba00;
+  color: #ffffff;
+}
+
+/* line 203, C:/Users/Josue/Desktop/SouLean/scss/modules/_sections.scss */
+.section-light {
+  background: #fff89a;
+  color: #666666;
+}
+
+/* line 207, C:/Users/Josue/Desktop/SouLean/scss/modules/_sections.scss */
+.section-dark {
+  background: #4b1b0d;
+  color: #ffffff;
+}
+
+/* line 211, C:/Users/Josue/Desktop/SouLean/scss/modules/_sections.scss */
+.section-primary-a {
+  border-top: 4px solid #7fba00;
+}
+
+/* line 216, C:/Users/Josue/Desktop/SouLean/scss/modules/_sections.scss */
+.section-primary-b {
+  border-bottom: 4px solid #7fba00;
+}
+
+/* line 223, C:/Users/Josue/Desktop/SouLean/scss/modules/_sections.scss */
+.section-primary-c h2 {
+  border-bottom: 1px solid #fff89a;
+  padding-left: 65px;
+}
+
+/* line 231, C:/Users/Josue/Desktop/SouLean/scss/modules/_sections.scss */
+.section-primary-d h2 {
+  border-bottom: 1px solid #fff89a;
+}
+
+/* Lists */
+/* line 3, C:/Users/Josue/Desktop/SouLean/scss/modules/_typography.scss */
+.list, .list-feature {
+  margin-bottom: 30px;
+}
+
+/* line 7, C:/Users/Josue/Desktop/SouLean/scss/modules/_typography.scss */
+.list-feature {
+  margin: 0;
+  padding: 0;
+  width: 80%;
+}
+
+/* line 14, C:/Users/Josue/Desktop/SouLean/scss/modules/_typography.scss */
+.list-feature li {
+  line-height: 3.5em;
+  border-bottom: 1px solid #cccccc;
+}
+
+/* line 19, C:/Users/Josue/Desktop/SouLean/scss/modules/_typography.scss */
+.list-feature li:last-child {
+  border: 0;
+}
+
+/* line 23, C:/Users/Josue/Desktop/SouLean/scss/modules/_typography.scss */
+.list-feature span {
+  vertical-align: top;
+  font-size: 160%;
+  padding-left: 15px;
+}
+
+/* line 31, C:/Users/Josue/Desktop/SouLean/scss/modules/_typography.scss */
+.list-comments li {
+  padding: 10px 0 5px 0;
+  border-bottom: 1px solid #cccccc;
+}
+
+/* line 36, C:/Users/Josue/Desktop/SouLean/scss/modules/_typography.scss */
+.list-comments li:last-child {
+  border: 0;
+}
+
+/* line 40, C:/Users/Josue/Desktop/SouLean/scss/modules/_typography.scss */
+.list-comments img {
+  width: 100px;
+}
+
+/* line 65, C:/Users/Josue/Desktop/SouLean/scss/modules/_typography.scss */
+.block-light {
+  padding-top: 30px;
+}
+
+/* line 69, C:/Users/Josue/Desktop/SouLean/scss/modules/_typography.scss */
+.fa-primary {
+  color: #ff794d;
+  border: 1px solid #ff794d;
+  border-radius: 15px;
+  padding: 55px 15px 10px 15px;
+  width: 70%;
+  margin: 15px 0 !important;
+}
+
+/* line 79, C:/Users/Josue/Desktop/SouLean/scss/modules/_typography.scss */
+.check-primary {
+  color: #ff794d;
+}
+
+/* line 83, C:/Users/Josue/Desktop/SouLean/scss/modules/_typography.scss */
+.paragraph-primary {
+  color: #ff794d;
+}
+
+/* HEADING HEADING HEADINGS */
+/* line 89, C:/Users/Josue/Desktop/SouLean/scss/modules/_typography.scss */
+.heading-primary, .heading-primary-a {
+  color: #ff794d;
+  margin-top: 15px !important;
+}
+
+/* line 94, C:/Users/Josue/Desktop/SouLean/scss/modules/_typography.scss */
+.heading-primary-a {
+  border-bottom: 2px solid #ff794d;
+}
+
+/* line 99, C:/Users/Josue/Desktop/SouLean/scss/modules/_typography.scss */
+.heading-secondary, .heading-secondary-a {
+  color: #7fba00;
+}
+
+/* line 103, C:/Users/Josue/Desktop/SouLean/scss/modules/_typography.scss */
+.heading-secondary-a {
+  border-bottom: 2px solid #7fba00;
+  font-size: 45px;
+}
+
+/* line 109, C:/Users/Josue/Desktop/SouLean/scss/modules/_typography.scss */
+.heading-light, .heading-light-a {
+  color: #fff89a;
+}
+
+/* line 113, C:/Users/Josue/Desktop/SouLean/scss/modules/_typography.scss */
+.heading-light-a {
+  border-bottom: 2px solid #fff89a;
+}
+
+/* line 118, C:/Users/Josue/Desktop/SouLean/scss/modules/_typography.scss */
+.heading-dark, .heading-dark-a {
+  color: #4b1b0d;
+}
+
+/* line 122, C:/Users/Josue/Desktop/SouLean/scss/modules/_typography.scss */
+.heading-dark-a {
+  border-bottom: 2px solid #4b1b0d;
+}
+
+/* line 128, C:/Users/Josue/Desktop/SouLean/scss/modules/_typography.scss */
+.em-primary {
+  color: #ff794d;
+}
+
+/* line 132, C:/Users/Josue/Desktop/SouLean/scss/modules/_typography.scss */
+.em-secondary {
+  color: #7fba00;
+}
+
+/* line 136, C:/Users/Josue/Desktop/SouLean/scss/modules/_typography.scss */
+.em-light {
+  color: #fff89a;
+}
+
+/* line 140, C:/Users/Josue/Desktop/SouLean/scss/modules/_typography.scss */
+.em-dark {
+  color: #4b1b0d;
+}
+
+/* Searchbox */
+/* line 3, C:/Users/Josue/Desktop/SouLean/scss/modules/_forms.scss */
+.search {
+  width: 100%;
+}
+
+/* line 6, C:/Users/Josue/Desktop/SouLean/scss/modules/_forms.scss */
+.search h3 {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* line 11, C:/Users/Josue/Desktop/SouLean/scss/modules/_forms.scss */
+.search input[type='search'] {
+  border: 0;
+  height: 50px;
+  width: 80%;
+  border: 2px solid #ff794d;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+/* line 21, C:/Users/Josue/Desktop/SouLean/scss/modules/_forms.scss */
+.search button {
+  border: 0;
+  background: none;
+  padding: 0;
+  vertical-align: top;
+  margin-left: -5px;
+}
+
+/* layouts layout getja layouts page layout styles */
+/* Navbar */
+/* line 3, C:/Users/Josue/Desktop/SouLean/scss/layouts/_nav.scss */
+.navbar {
+  width: 90%;
+  margin: auto;
+  border-left: 1px solid #e7e7e7;
+  border-right: 1px solid #e7e7e7;
+  min-height: 60px;
+  background: rgba(255, 255, 255, 0);
+  margin-bottom: 30px;
+}
+
+/* line 12, C:/Users/Josue/Desktop/SouLean/scss/layouts/_nav.scss */
+a {
+  color: #ff794d;
+  font-size: 20px;
+  letter-spacing: -0.5px;
+  padding-bottom: 24px;
+  padding-top: 20px;
+}
+
+/* line 20, C:/Users/Josue/Desktop/SouLean/scss/layouts/_nav.scss */
+.nav-item.active {
+  background: #ff794d;
+  border-radius: 15px;
+}
+
+/* line 23, C:/Users/Josue/Desktop/SouLean/scss/layouts/_nav.scss */
+.nav-item.active a {
+  color: #fff;
+}
+
+/* line 28, C:/Users/Josue/Desktop/SouLean/scss/layouts/_nav.scss */
+.navbar-brand {
+  padding: 7px;
+}
+
+/* line 50, C:/Users/Josue/Desktop/SouLean/scss/layouts/_nav.scss */
+.navbar-btn {
+  border-color: #ae142a;
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  color: #fff;
+  background-color: #ae142a;
+  padding: 6px 12px !important;
+  margin: 0px 0px 0px 10px;
+}
+
+/* line 60, C:/Users/Josue/Desktop/SouLean/scss/layouts/_nav.scss */
+.navbar-brand {
+  background-color: transparent;
+  transition: 1s;
+}
+
+/* line 64, C:/Users/Josue/Desktop/SouLean/scss/layouts/_nav.scss */
+.navbar-brand:hover {
+  color: #fff;
+  background-color: #ff794d;
+  border-radius: 15px;
+}
+
+/* line 69, C:/Users/Josue/Desktop/SouLean/scss/layouts/_nav.scss */
+.nav-link {
+  transition: 1s;
+  background-color: transparent;
+}
+
+/* line 73, C:/Users/Josue/Desktop/SouLean/scss/layouts/_nav.scss */
+.nav-link-a {
+  transition: background-color 1s linear;
+  background-color: transparent;
+}
+
+/* line 77, C:/Users/Josue/Desktop/SouLean/scss/layouts/_nav.scss */
+.nav-link:hover {
+  color: #FFF;
+  background-color: #ff794d !important;
+  border-color: #2E6DA4 !important;
+  border-radius: 15px;
+}
+
+/* line 84, C:/Users/Josue/Desktop/SouLean/scss/layouts/_nav.scss */
+.nav-link-a:hover {
+  color: #FFF;
+  background-color: #fff89a !important;
+}
+
+/* line 90, C:/Users/Josue/Desktop/SouLean/scss/layouts/_nav.scss */
+.btn-primary {
+  border-color: #ae142a;
+  text-transform: uppercase;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  color: #fff;
+}
+
+/* FOOTER SECTION */
+/* line 3, C:/Users/Josue/Desktop/SouLean/scss/layouts/_footer.scss */
+.footer-main {
+  background-color: #000;
+  border-top: 5px solid #ff794d;
+  min-height: 400px;
+}
+
+/* line 10, C:/Users/Josue/Desktop/SouLean/scss/layouts/_footer.scss */
+.footer-main a {
+  color: #ffffff;
+}
+
+/* line 17, C:/Users/Josue/Desktop/SouLean/scss/layouts/_footer.scss */
+.footer-main ul {
+  margin-top: 45px;
+  padding: 0;
+  text-align: center;
+  display: block;
+}
+
+/* line 25, C:/Users/Josue/Desktop/SouLean/scss/layouts/_footer.scss */
+.footer-main li {
+  display: inline;
+  word-spacing: 10px;
+}
+
+/* line 30, C:/Users/Josue/Desktop/SouLean/scss/layouts/_footer.scss */
+.footer-main h2 {
+  text-align: center;
+  margin-top: 3.5%;
+  padding-bottom: 15px;
+}
+
+/* line 36, C:/Users/Josue/Desktop/SouLean/scss/layouts/_footer.scss */
+.footer-main h4 {
+  text-align: center;
+}
+
+/* line 40, C:/Users/Josue/Desktop/SouLean/scss/layouts/_footer.scss */
+.footer-main .fancy {
+  font-family: 'Great Vibes', cursive;
+  font-size: 55px;
+  color: #ff794d;
+}
+
+/* line 46, C:/Users/Josue/Desktop/SouLean/scss/layouts/_footer.scss */
+.footer-main .social-media {
+  line-height: 1.8em;
+  list-style: none;
+  text-align: center;
+  color: #ff794d;
+  display: inline;
+  text-decoration: none;
+  transition: .5s;
+}
+
+/* line 56, C:/Users/Josue/Desktop/SouLean/scss/layouts/_footer.scss */
+.footer-main .social-media:hover {
+  color: #fff;
+}
+
+/* Blog Section */
+/* line 3, C:/Users/Josue/Desktop/SouLean/scss/layouts/_blog.scss */
+.blog-post {
+  border-top: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+  padding: 15px;
+}
+
+/* line 8, C:/Users/Josue/Desktop/SouLean/scss/layouts/_blog.scss */
+.blog-post h2.page-header {
+  margin-top: 5px !important;
+}
+
+/* line 13, C:/Users/Josue/Desktop/SouLean/scss/layouts/_blog.scss */
+.blog-featured {
+  float: left;
+  margin-right: 15px;
+}
+
+/* line 18, C:/Users/Josue/Desktop/SouLean/scss/layouts/_blog.scss */
+.post-meta {
+  background: #f3f3f3;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid #cccccc;
+  margin-bottom: 20px;
+}
+
+/* Mobile Media Queries */
+@media (max-width: 768px) {
+  /* line 5, C:/Users/Josue/Desktop/SouLean/scss/layouts/_mobile.scss */
+  .section-showcase {
+    display: block;
+    margin: 0 auto;
+  }
+  /* line 12, C:/Users/Josue/Desktop/SouLean/scss/layouts/_mobile.scss */
+  .bgb .btn {
+    display: block;
+    margin: 0 auto;
+  }
+  /* line 16, C:/Users/Josue/Desktop/SouLean/scss/layouts/_mobile.scss */
+  .bgb h3 {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+  /* line 23, C:/Users/Josue/Desktop/SouLean/scss/layouts/_mobile.scss */
+  .search {
+    display: inline-block;
+    text-align: center;
+  }
+  /* line 28, C:/Users/Josue/Desktop/SouLean/scss/layouts/_mobile.scss */
+  .device {
+    display: block;
+    margin: 20px auto 0 auto;
+  }
+  /* line 33, C:/Users/Josue/Desktop/SouLean/scss/layouts/_mobile.scss */
+  .list-feature {
+    margin: 0 auto;
+    text-align: center;
+  }
+  /* line 38, C:/Users/Josue/Desktop/SouLean/scss/layouts/_mobile.scss */
+  .page-header {
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  /* line 45, C:/Users/Josue/Desktop/SouLean/scss/layouts/_mobile.scss */
+  .section-primary-d h2 {
+    padding-top: 60px;
+  }
+  /* line 48, C:/Users/Josue/Desktop/SouLean/scss/layouts/_mobile.scss */
+  .section-primary-d p {
+    text-align: center;
+  }
+  /* line 51, C:/Users/Josue/Desktop/SouLean/scss/layouts/_mobile.scss */
+  .section-primary-d .btn {
+    display: block;
+    margin: 0 auto;
+  }
+  /* line 59, C:/Users/Josue/Desktop/SouLean/scss/layouts/_mobile.scss */
+  .section-light .btn {
+    display: block;
+    margin: 0 auto;
+  }
+  /* line 65, C:/Users/Josue/Desktop/SouLean/scss/layouts/_mobile.scss */
+  .block-primary-head .block-content {
+    border: 1px solid #00aff0;
+    padding: 10px;
+    margin-bottom: -40px;
+  }
+  /* line 71, C:/Users/Josue/Desktop/SouLean/scss/layouts/_mobile.scss */
+  .section-main .btn-primary {
+    display: block;
+    margin: 40px auto 20px auto;
+    padding: 15px 200px 15px 200px;
+  }
+  /* line 77, C:/Users/Josue/Desktop/SouLean/scss/layouts/_mobile.scss */
+  span.navbar-toggler-icon {
+    filter: invert(50%);
+  }
+  /* line 81, C:/Users/Josue/Desktop/SouLean/scss/layouts/_mobile.scss */
+  h2.page-header {
+    margin-top: 25px;
+    margin-bottom: -10px;
+  }
+  /* line 86, C:/Users/Josue/Desktop/SouLean/scss/layouts/_mobile.scss */
+  h3.recent {
+    margin-top: 25px;
+  }
+}
+
+/* About Section */
+/* line 5, C:/Users/Josue/Desktop/SouLean/scss/layouts/_about.scss */
+.section-about .fancy {
+  font-family: 'Great Vibes', cursive;
+  font-size: 45px;
+}
+
+/* line 9, C:/Users/Josue/Desktop/SouLean/scss/layouts/_about.scss */
+.section-about .fa-coffee, .section-about .fa-viadeo {
+  color: #ff794d !important;
+}
+
+/* line 14, C:/Users/Josue/Desktop/SouLean/scss/layouts/_about.scss */
+.section-about i {
+  color: #ff794d !important;
+}
+
+/* line 18, C:/Users/Josue/Desktop/SouLean/scss/layouts/_about.scss */
+.section-about .about-image {
+  padding-top: 35px;
+}
+
+/* line 22, C:/Users/Josue/Desktop/SouLean/scss/layouts/_about.scss */
+.section-about .about-image img {
+  height: 375px;
+  width: 450px;
+  display: block;
+  border-radius: 50%;
+}
+
+/* line 32, C:/Users/Josue/Desktop/SouLean/scss/layouts/_about.scss */
+.section-about .about-text {
+  text-align: center;
+  margin-top: 35px;
+}
+
+/* line 37, C:/Users/Josue/Desktop/SouLean/scss/layouts/_about.scss */
+.section-about .col-12 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* line 42, C:/Users/Josue/Desktop/SouLean/scss/layouts/_about.scss */
+.section-about h2.page-header {
+  margin-top: 50px !important;
+}
+
+/* line 46, C:/Users/Josue/Desktop/SouLean/scss/layouts/_about.scss */
+.section-about .about-header {
+  text-align: center;
+  margin: 0 auto;
+  width: 25%;
+  display: block;
+}
+
+/* line 52, C:/Users/Josue/Desktop/SouLean/scss/layouts/_about.scss */
+.section-about .about-header h4 {
+  color: #666666;
+}
+
+/* line 56, C:/Users/Josue/Desktop/SouLean/scss/layouts/_about.scss */
+.section-about .about-header .about-img-container {
+  padding-top: 150px;
+}
+
+/* line 60, C:/Users/Josue/Desktop/SouLean/scss/layouts/_about.scss */
+.section-about .about-header .about-text {
+  max-width: 30%;
+  margin-top: 100px;
+  text-align: center;
+}
+
+/* line 66, C:/Users/Josue/Desktop/SouLean/scss/layouts/_about.scss */
+.section-about .about-featured {
+  float: left;
+  margin-right: 15px;
+}
+
+/* line 73, C:/Users/Josue/Desktop/SouLean/scss/layouts/_about.scss */
+.post-meta {
+  background: #f3f3f3;
+  padding: 10px 10px 10px 10px;
+  border: 1px solid #cccccc;
+  margin-bottom: 20px;
+}
+
+/* line 7, C:/Users/Josue/Desktop/SouLean/scss/layouts/_menu.scss */
+#app {
+  height: 100vh;
+  background-image: url("../img/menu.jpg");
+  background-attachment: fixed;
+}
+
+/* line 13, C:/Users/Josue/Desktop/SouLean/scss/layouts/_menu.scss */
+#app .dontMove {
+  position: absolute;
+}
+
+/* line 16, C:/Users/Josue/Desktop/SouLean/scss/layouts/_menu.scss */
+#app ul {
+  text-align: center;
+  list-style-type: none;
+  padding-bottom: 50px;
+}
+
+/* line 23, C:/Users/Josue/Desktop/SouLean/scss/layouts/_menu.scss */
+#app ul li {
+  display: inline-block;
+  margin: 10px;
+}
+
+/* line 29, C:/Users/Josue/Desktop/SouLean/scss/layouts/_menu.scss */
+#app li {
+  font-size: 30px;
+  text-align: center;
+  list-style: none;
+  font-family: 'Libre Baskerville', serif;
+}
+
+/* line 37, C:/Users/Josue/Desktop/SouLean/scss/layouts/_menu.scss */
+#app a {
+  color: #fff;
+  font-size: 30px;
+  transition-property: font-size;
+  transition-duration: .5s;
+}
+
+/* line 47, C:/Users/Josue/Desktop/SouLean/scss/layouts/_menu.scss */
+#app a:hover {
+  color: #ff794d;
+  text-decoration: none;
+  font-size: 35px;
+  position: relative;
+}
+
+/* line 54, C:/Users/Josue/Desktop/SouLean/scss/layouts/_menu.scss */
+#app img {
+  height: 650px !important;
+  width: 650px !important;
+  border-radius: 400px;
+  margin: 0 auto;
+}
+
+/* line 62, C:/Users/Josue/Desktop/SouLean/scss/layouts/_menu.scss */
+#app p {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 24px;
+  width: 100%;
+  text-align: center;
+  color: #ff794d;
+}
+
+/* line 71, C:/Users/Josue/Desktop/SouLean/scss/layouts/_menu.scss */
+#app .fancy {
+  font-family: 'Great Vibes', cursive;
+  font-size: 75px;
+  color: #fff;
+}
+
+/* line 77, C:/Users/Josue/Desktop/SouLean/scss/layouts/_menu.scss */
+#app h1 {
+  color: #ff794d !important;
+  padding-top: 80px;
+}
+
+/* line 83, C:/Users/Josue/Desktop/SouLean/scss/layouts/_menu.scss */
+#app h2 {
+  color: #fff;
+  padding-top: 20px;
+}
+
+/* line 88, C:/Users/Josue/Desktop/SouLean/scss/layouts/_menu.scss */
+#app .price {
+  color: #d6d6d6;
+}
+
+/* line 94, C:/Users/Josue/Desktop/SouLean/scss/layouts/_menu.scss */
+#content {
+  min-height: 350px;
+}
+
+/* line 100, C:/Users/Josue/Desktop/SouLean/scss/layouts/_menu.scss */
+.slide-fade-enter, .slide-fade-leave-to {
+  transform: translateX(40px);
+  opacity: 0;
+}
+
+/* how long transition will take */
+/* line 107, C:/Users/Josue/Desktop/SouLean/scss/layouts/_menu.scss */
+.slide-fade-enter-active {
+  transition: 1s ease;
+}
+
+/* line 110, C:/Users/Josue/Desktop/SouLean/scss/layouts/_menu.scss */
+.slide-fade-leave-active {
+  transition: 1s ease;
+}
+
+/*# sourceMappingURL=../css/main.map */

@@ -1,0 +1,59 @@
+/* FOOTER SECTION */
+
+.footer-main {
+  // @include add-background($dark-color);
+  background-color: #000;
+  @include add-border(5px, $primary-color, top);
+  min-height:400px;
+
+
+  a {
+
+    color: #ffffff;
+  }
+
+
+
+  ul {
+
+    margin-top:45px;
+    padding:0;
+    text-align: center;
+    display: block;
+  }
+
+   li {
+     display:inline;
+     word-spacing: 10px;
+   }
+
+  h2 {
+    text-align: center;
+    margin-top:3.5%;
+    padding-bottom: 15px;
+  }
+
+  h4 {
+    text-align: center;
+  }
+
+  .fancy {
+    font-family: 'Great Vibes', cursive;
+    font-size: 55px;
+    color: $primary-color;
+  }
+
+  .social-media {
+    line-height:1.8em;
+    list-style: none;
+    text-align: center;
+    color: $primary-color;
+    display: inline;
+    text-decoration: none;
+    transition: .5s;
+    }
+
+    .social-media:hover {
+      color: #fff;
+    }
+  }

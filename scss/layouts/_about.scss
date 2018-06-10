@@ -1,0 +1,79 @@
+/* About Section */
+
+.section-about {
+
+  .fancy {
+    font-family: 'Great Vibes', cursive;
+    font-size: 45px;
+  }
+  .fa-coffee, .fa-viadeo {
+    color: $primary-color !important;
+  }
+
+
+   i {
+    color: $primary-color !important;
+  }
+
+  .about-image {
+
+     padding-top: 35px;
+
+  img {
+    height: 375px;
+    width: 450px;
+    display: block;
+    border-radius: 50%;
+    
+
+      }
+    }
+
+    .about-text {
+      text-align: center;
+      margin-top: 35px;
+    }
+
+  .col-12 {
+    text-align: center;
+    margin-top: 50px;
+  }
+
+  h2.page-header {
+    margin-top: 50px !important;
+  }
+
+.about-header {
+    text-align: center;
+    margin: 0 auto;
+    width: 25%;
+    display: block;
+
+    h4 {
+    color: #666666;
+    }
+
+  .about-img-container {
+        padding-top: 150px;
+
+      }
+    .about-text {
+      max-width: 30%;
+      margin-top: 100px;
+      text-align: center;
+    }
+}
+ .about-featured{
+      float:left;
+      margin-right:15px;
+ }
+
+}
+
+.post-meta {
+  background: #f3f3f3;
+  padding:10px 10px 10px 10px;
+  @include add-border(1px, #cccccc, all);
+  margin-bottom: 20px;
+
+}

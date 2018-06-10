@@ -1,0 +1,234 @@
+/* Sections */
+.section-showcase {
+
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    top:0;
+    left:0;
+h1{
+      color: #fff;
+      border-bottom: 1px solid $primary-color;
+      text-shadow: -1px 1px $primary-color;
+    }
+p {
+      font-size: 2.5rem;
+      color:#fff;
+      margin-top:10px;
+    }
+button {
+  background:$primary-color;
+  color:#fff;
+  border:none;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 100%;
+  margin-top:50px;
+  font-size:25px;
+}
+
+.carousel {
+      position:absolute;
+      padding-bottom:0;
+    }
+
+  }
+
+
+.showcase-content {
+      padding-top: 300px;
+      text-align: center;
+      // z-index: 99;
+      margin: 0 auto;
+      display: block;
+
+
+    }
+
+
+
+.section-about {
+        background: #fff;
+        color: #000;
+        // background-size: cover;
+        height: 100vh;
+        width: 100%;
+        // background-attachment: fixed;
+        top:0;
+        left:0;
+        // opacity: 0;
+
+              }
+
+
+.section-menu {
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-attachment: fixed;
+  top:0;
+  left:0;
+      }
+
+
+
+.section-events {
+        background: #fff;
+        color: #585858;
+        // background-size: cover;
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+        // background-attachment: fixed;
+        top:0;
+
+        .fa-calendar-alt {
+          margin:0 auto;
+          width: 100%;
+        }
+
+        h2, h3 {
+          text-align: center;
+          color:$primary-color;
+          }
+        .reserve {
+          margin: 40px auto 30px auto;
+        }
+
+        img {
+          height: 300px;
+          width: 350px;
+          border-radius: 15%;
+          position: relative;
+          opacity: 1.0;
+        }
+
+        img:hover {
+          opacity: .65;
+        }
+
+      .item {
+        margin: 0 auto;
+        position: relative;
+        // margin: 2%;
+        overflow: hidden;
+        border-radius: 15%;
+        // border-radius: 25%;
+        // height: 275px;
+        // width: 325px;
+        background: $primary-color;
+
+    }
+      .item img {
+        max-width: 100%;
+        -moz-transition: all 1.5s;
+        -webkit-transition: all 1.5s;
+        transition: all 1.5s;
+    }
+      .item:hover img {
+        -moz-transform: scale(1.25);
+        -webkit-transform: scale(1.25);
+        transform: scale(1.25);
+
+    }
+
+    button {
+      background:$primary-color;
+      color:#fff;
+      border:none;
+      margin: 0 auto;
+      display: block;
+      padding: 20px;
+      border-radius: 100%;
+      -moz-transition: all 1.5s;
+      -webkit-transition: all 1.5s;
+      transition: all 1.5s;
+    }
+
+
+
+      }
+
+.section-contact {
+  background-image:url("../img/sushi1.jpg");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+
+  ::placeholder {
+    color: $primary-color;
+    opacity: 1; /* Firefox */
+}
+
+  .container {
+    margin-top: 7%;
+    background-color: rgba(255,121,77, .5);
+    padding: 20px 30px 10px 30px;
+    border-radius: 20px;
+
+  }
+
+  iframe {
+    border-radius: 15px;
+  }
+
+  h1 {
+    color: #fff;
+    // margin-top: 50px;
+  }
+
+  button {
+    color: #fff;
+    background-color:$primary-color;
+  }
+  button:hover{
+    background-color: #ffebe0;
+    color: $primary-color;
+    border: 1px solid #fff;
+  }
+}
+
+
+
+.section-primary {
+  @include add-background($primary-color);
+  }
+
+.section-secondary {
+  @include add-background($secondary-color);
+}
+
+.section-light {
+  @include add-background($light-color);
+}
+
+.section-dark {
+  @include add-background ($dark-color);
+}
+
+.section-primary-a {
+  @extend .section-primary;
+  @include add-border(4px, $secondary-color, top);
+}
+
+.section-primary-b {
+  @extend .section-primary;
+  @include add-border(4px, $secondary-color, bottom);
+}
+
+.section-primary-c {
+  @extend .section-primary;
+    h2 {
+      @include add-border(1px, $light-color, bottom);
+      padding-left:65px;
+    }
+}
+
+.section-primary-d {
+  @extend .section-primary;
+    h2 {
+      @include add-border(1px, $light-color, bottom);
+      }
+}
